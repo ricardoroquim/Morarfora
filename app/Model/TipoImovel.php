@@ -6,7 +6,7 @@ class TipoImovel extends AppModel {
 
 	public $useTable = "tipo_imovel";
 
-	public $primaryKey = "co_tipo_imovel";
+	public $primaryKey = "tipo_imovel_id";
 
 }
 ?>

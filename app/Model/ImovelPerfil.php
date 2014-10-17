@@ -37,7 +37,7 @@ class ImovelPerfil extends AppModel {
 		'TipoImovel' => array(
 			'className' => 'TipoImovel',
 			'joinTable' => 'tipo_imovel',
-			'foreignKey' => 'co_tipo_imovel',
+			'foreignKey' => 'tipo_imovel_id',
 		),
 		'FaixaPreco' => array(
 			'className' => 'FaixaPreco',

@@ -4,7 +4,7 @@ class TipoQuarto extends AppModel {
 	
 	public $name = "TipoQuarto";
 
-	public $useTable = "tipo_quartos";
+	public $useTable = "tipos_quartos";
 
 	public $primaryKey = "co_tipos_quartos";
 
