@@ -2694,3 +2694,21 @@ Stack Trace:
 #23 C:\wamp\www\morarfora\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
 #24 C:\wamp\www\morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #25 {main}
+2014-10-17 02:37:44 Error: [MissingControllerException] Controller class ElementsController could not be found.
+Exception Attributes: array (
+  'class' => 'ElementsController',
+  'plugin' => NULL,
+)
+Request URL: /morarfora/elements/ultimosimoveis
+Stack Trace:
+#0 C:\wamp\www\morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-17 02:38:07 Error: [MissingControllerException] Controller class ElementsController could not be found.
+Exception Attributes: array (
+  'class' => 'ElementsController',
+  'plugin' => NULL,
+)
+Request URL: /morarfora/elements/
+Stack Trace:
+#0 C:\wamp\www\morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
