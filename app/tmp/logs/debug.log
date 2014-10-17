@@ -1,0 +1,64 @@
+2014-10-17 01:06:13 Debug: Notice (8): Undefined index: Bairo in [C:\wamp\www\cake\app\View\Elements\ultimosImoveis.ctp, line 9]
+Trace:
+include - APP\View\Elements\ultimosImoveis.ctp, line 9
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Home\index.ctp, line 28
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-10-17 01:06:13 Debug: Notice (8): Undefined index: Bairo in [C:\wamp\www\cake\app\View\Elements\ultimosImoveis.ctp, line 9]
+Trace:
+include - APP\View\Elements\ultimosImoveis.ctp, line 9
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Home\index.ctp, line 28
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-10-17 01:06:13 Debug: Notice (8): Undefined index: Bairo in [C:\wamp\www\cake\app\View\Elements\ultimosImoveis.ctp, line 9]
+Trace:
+include - APP\View\Elements\ultimosImoveis.ctp, line 9
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Home\index.ctp, line 28
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-10-17 01:06:13 Debug: Notice (8): Undefined index: Bairo in [C:\wamp\www\cake\app\View\Elements\ultimosImoveis.ctp, line 9]
+Trace:
+include - APP\View\Elements\ultimosImoveis.ctp, line 9
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Home\index.ctp, line 28
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
