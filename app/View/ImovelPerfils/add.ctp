@@ -8,7 +8,7 @@
 		echo $this->Form->input('data_criacao');
 		echo $this->Form->input('data_atualizacao');
 		echo $this->Form->input('data_cancelamento');
-		echo $this->Form->input('bairro', array('type'=>'select','options'=>$bairro, 'label'=>false, 'empty'=>'Bairro')); ?>
+		echo $this->Form->input('co_imovel');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
@@ -20,3 +20,5 @@
 		<li><?php echo $this->Html->link(__('List Imovel Perfils'), array('action' => 'index')); ?></li>
 	</ul>
 </div>
+
+

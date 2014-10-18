@@ -28,6 +28,10 @@ class ImovelPerfilsController extends AppController{
             }
         }
     }
+
+    public function filtro() {
+        
+    }
 }
 
 

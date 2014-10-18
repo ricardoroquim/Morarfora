@@ -21,6 +21,7 @@
 
 App::uses('Controller', 'Controller');
 
+
 /**
  * Application Controller
  *
@@ -30,35 +31,9 @@ App::uses('Controller', 'Controller');
  * @package		app.Controller
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
+
+
 class AppController extends Controller {
 
-	var $components = array(
-    'FilterResults.Filter' => array(
-        'auto' => array(
-            'paginate' => true,
-            'explode'  => true,  // recommended
-        ),
-        'explode' => array(
-            'character'   => ' ',
-            'concatenate' => 'AND',
-        )
-    )
-);
-
-var $helpers = array(
-    'FilterResults.Search' => array(
-        'operators' => array(
-            'LIKE'       => 'containing',
-            'NOT LIKE'   => 'not containing',
-            'LIKE BEGIN' => 'starting with',
-            'LIKE END'   => 'ending with',
-            '='  => 'equal to',
-            '!=' => 'different',
-            '>'  => 'greater than',
-            '>=' => 'greater or equal to',
-            '<'  => 'less than',
-            '<=' => 'less or equal to'
-        )
-    )
-);
+	public $helpers = array('Html', 'Social', 'Form'=>array('className'=>'FormTb'));  
 }

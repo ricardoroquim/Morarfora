@@ -9,6 +9,10 @@ class Bairro extends AppModel {
 	public $primaryKey = "co_bairros";
 
 	public $belongsTo = array(
+		'Perfil' => array(
+            'className' => 'Perfil',
+            'foreignKey' => 'co_bairros'
+        ),
         'ImovelPerfil' => array(
             'className' => 'ImovelPerfil',
             'foreignKey' => 'co_bairros'
