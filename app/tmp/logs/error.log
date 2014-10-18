@@ -2712,31 +2712,3 @@ Request URL: /morarfora/elements/
 Stack Trace:
 #0 C:\wamp\www\morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-10-18 18:16:43 Error: [MissingControllerException] Controller class MorarforaController could not be found.
-Exception Attributes: array (
-  'class' => 'MorarforaController',
-  'plugin' => NULL,
-)
-Request URL: /Morarfora/morarfora/
-Stack Trace:
-#0 C:\wamp\www\Morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-10-18 18:57:32 Error: Fatal Error (1): Call to a member function image2wbmp() on a non-object in [C:\wamp\www\Morarfora\app\View\Elements\ultimosImoveis.ctp, line 9]
-2014-10-18 18:57:32 Error: [FatalErrorException] Call to a member function image2wbmp() on a non-object
-Request URL: /Morarfora/
-Stack Trace:
-#0 C:\wamp\www\Morarfora\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Mor...', 9)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Mor...', 9, Array)
-#2 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Mor...', 9, Array)
-#3 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-10-18 19:02:57 Error: [MissingControllerException] Controller class ImgController could not be found.
-Exception Attributes: array (
-  'class' => 'ImgController',
-  'plugin' => NULL,
-)
-Request URL: /Morarfora/img/img/1.jpg
-Stack Trace:
-#0 C:\wamp\www\Morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
