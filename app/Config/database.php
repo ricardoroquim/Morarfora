@@ -83,6 +83,6 @@ class DATABASE_CONFIG {
 		'password' => '',
 		'database' => 'morarfora',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
 }

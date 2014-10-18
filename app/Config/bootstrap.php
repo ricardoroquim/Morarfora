@@ -110,3 +110,5 @@ CakeLog::config('error', array(
 /**
  * Carregando plugin Filter Results
  */
+
+CakePlugin::load('FilterResults');

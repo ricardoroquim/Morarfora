@@ -11,7 +11,7 @@ class FaixaPreco extends AppModel {
 	public $belongsTo = array(
         'ImovelPerfil' => array(
             'className' => 'ImovelPerfil',
-            'foreignKey' => 'co_faixa_preco'
+            'foreignKey' => 'co_imovel'
         )
     );
 
