@@ -6,6 +6,7 @@
     <div class="thumbnail">
         <div class="caption">
             <h3>R$ <?php echo $imovel['Imovel']['Valor_Aluguel']; ?></h3>
+            <?php echo $this->html->image($imovel['Perfil']['imagem']);?>
             <p><span style="font-weight: 700">Bairro:</span> <?php echo $imovel['Bairro']['descricao']; ?></p>
             <p><span style="font-weight: 700">Imóvel:</span> <?php echo $imovel['TipoImovel']['descricao']; ?></p>
             <p><span style="font-weight: 700">Vaga:</span> <?php echo $imovel['TipoQuarto']['descricao']; ?></p>
@@ -26,6 +27,7 @@
             <div class="imovel">
                 <div class="row">
                     <div class="col-md-8">
+                        <?php echo $this->html->image($imovel['Perfil']['imagem']);?>
                         <img src="">
                     </div>
                     <div class="col-md-4">
