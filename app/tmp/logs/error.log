@@ -2740,3 +2740,61 @@ Request URL: /Morarfora/img/img/1.jpg
 Stack Trace:
 #0 C:\wamp\www\Morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-10-18 20:01:02 Error: Fatal Error (4): syntax error, unexpected '$imovels' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\Morarfora\app\Controller\ImovelPerfilsController.php, line 38]
+2014-10-18 20:01:02 Error: [FatalErrorException] syntax error, unexpected '$imovels' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Morarfora/
+Stack Trace:
+#0 C:\wamp\www\Morarfora\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 38, Array)
+#2 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 38, Array)
+#3 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-18 20:01:12 Error: [MissingControllerException] Controller class Resultado-busca-nlg.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Resultado-busca-nlg.phpController',
+  'plugin' => NULL,
+)
+Request URL: /Morarfora/resultado-busca-nlg.php
+Stack Trace:
+#0 C:\wamp\www\Morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-18 20:03:05 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\Morarfora\app\Controller\ImovelPerfilsController.php, line 46]
+2014-10-18 20:03:05 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Morarfora/
+Stack Trace:
+#0 C:\wamp\www\Morarfora\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#2 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#3 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-18 20:03:13 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\Morarfora\app\Controller\ImovelPerfilsController.php, line 46]
+2014-10-18 20:03:13 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Morarfora/
+Stack Trace:
+#0 C:\wamp\www\Morarfora\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#2 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#3 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-18 20:03:17 Error: [MissingControllerException] Controller class Resultado-busca-nlg.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Resultado-busca-nlg.phpController',
+  'plugin' => NULL,
+)
+Request URL: /Morarfora/resultado-busca-nlg.php
+Stack Trace:
+#0 C:\wamp\www\Morarfora\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-18 20:03:46 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\Morarfora\app\Controller\ImovelPerfilsController.php, line 46]
+2014-10-18 20:03:46 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Morarfora/
+Stack Trace:
+#0 C:\wamp\www\Morarfora\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#2 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Mor...', 46, Array)
+#3 C:\wamp\www\Morarfora\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -58,7 +58,7 @@ var $helpers = array(
             '>=' => 'greater or equal to',
             '<'  => 'less than',
             '<=' => 'less or equal to'
+            )
         )
-    )
-);
+    );
 }
