@@ -6,7 +6,7 @@
 
 <nav class="nav navbar-filtro" role="navigation">
 		<div class="navbar-collapse collapse">
-		<form action="resultado-busca-nlg.php" method="post" enctype="multipart/form-data">
+		<form action="resultadobuscanlg.php" method="post" enctype="multipart/form-data">
 			<ul class="nav navbar-nav">
 				<li class="filtro-nlg">
 					<?php echo $this->Form->input('faixapreco', array('type'=>'select','options'=>$faixapreco, 'label'=>false, 'empty'=>'Faixa de preço')); ?>	
