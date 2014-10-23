@@ -1,5 +1,3 @@
-<?php create(string $model = null, array $options = array()) ?>
-
 <?php $faixapreco = $this->requestAction('FaixaPrecos/filtro'); ?>
 <?php $regional = $this->requestAction('RegionaisBairros/filtro'); ?>
 <?php $bairro = $this->requestAction('Bairros/filtro'); ?>
