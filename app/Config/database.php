@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
+		'host' => 'localhost:3306',
 		'login' => 'root',
 		'password' => '',
 		'database' => 'morarfora',
